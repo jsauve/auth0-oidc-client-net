@@ -26,8 +26,6 @@ namespace XamarinAndroidTestApp
 		
 		public static void UpdateIdValues()
 		{
-			global::Auth0.OidcClient.Resource.String.ApplicationName = global::XamarinAndroidTestApp.Resource.String.ApplicationName;
-			global::Auth0.OidcClient.Resource.String.Hello = global::XamarinAndroidTestApp.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -100,23 +98,20 @@ namespace XamarinAndroidTestApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f040002
+			public const int ApplicationName = 2130968578;
 			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int Login = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int Login = 2130968578;
+			// aapt resource value: 0x7f040001
+			public const int Logout = 2130968577;
 			
 			// aapt resource value: 0x7f040003
-			public const int Logout = 2130968579;
+			public const int auth0_client_id = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int auth0_client_id = 2130968580;
-			
-			// aapt resource value: 0x7f040005
-			public const int auth0_domain = 2130968581;
+			public const int auth0_domain = 2130968580;
 			
 			static String()
 			{
