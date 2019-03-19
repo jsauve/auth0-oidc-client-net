@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Auth0.OidcClient.Core\Auth0.OidcClient.Core.csproj">
-      <Project>{705D1D9C-538F-419B-9D8C-DEFC9081B0E7}</Project>
+      <Project>{2FD40F16-1B78-471A-A466-2F131DB701BD}</Project>
       <Name>Auth0.OidcClient.Core</Name>
     </ProjectReference>
   </ItemGroup>
